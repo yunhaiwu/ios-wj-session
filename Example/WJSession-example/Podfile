@@ -1,0 +1,13 @@
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/yunhaiwu/ios-wj-framework-cocoapods-specs.git'
+
+platform :ios, '7.0'
+
+inhibit_all_warnings!
+
+target :'WJSession-example' do
+
+pod 'WJCacheAPI'
+pod 'WJConfig'
+
+end
