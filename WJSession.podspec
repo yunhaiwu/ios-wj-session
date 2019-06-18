@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
 s.name             = "WJSession"
-s.version          = "1.0.2"
+s.version          = "2.0"
 s.summary          = "用户用户登录/注销管理工具."
 
 
