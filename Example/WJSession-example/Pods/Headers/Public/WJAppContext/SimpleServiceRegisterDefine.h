@@ -1,0 +1,1 @@
+../../../WJAppContext/Classes/Core/SimpleServiceRegisterDefine.h

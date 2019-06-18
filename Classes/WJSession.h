@@ -1,24 +1,15 @@
 //
-//  GenericWJSession.h
+//  WJSession.h
+//  WJSession-example
 //
-//   __      __   _____
-//  /\ \  __/\ \ /\___ \
-//  \ \ \/\ \ \ \\/__/\ \
-//   \ \ \ \ \ \ \  _\ \ \
-//    \ \ \_/ \_\ \/\ \_\ \
-//     \ `\___x___/\ \____/
-//      '\/__//__/  \/___/
-//
-//  Created by Yunhai.Wu on 15/11/2.
-//  Copyright (c) 2015年 WJ. All rights reserved.
+//  Created by ada on 2019/6/18.
+//  Copyright © 2019年 WJ. All rights reserved.
 //
 
-#import "AbstractWJBusinessObject.h"
-#import "IWJSession.h"
-#import "WJSingleton.h"
+#ifndef WJSession_h
+#define WJSession_h
 
-@interface WJSession : AbstractWJBusinessObject<IWJSession>
+#import "IWJSessionService.h"
+#import "IWJTokenSerializerService.h"
 
-AS_SINGLETON(WJSession)
-
-@end
+#endif /* WJSession_h */

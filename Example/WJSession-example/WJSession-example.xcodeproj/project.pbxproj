@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1EB6EF4333F47FF565108BBD /* libPods-WJSession-example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C499FE6DCD7B4A11900D42F /* libPods-WJSession-example.a */; };
-		600E0E1B21D4CFB7005537FD /* WJSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 600E0E1621D4CFB6005537FD /* WJSession.m */; };
+		600E0E1B21D4CFB7005537FD /* WJSessionService.m in Sources */ = {isa = PBXBuildFile; fileRef = 600E0E1621D4CFB6005537FD /* WJSessionService.m */; };
 		600E0E1C21D4CFB7005537FD /* GenericWJToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 600E0E1721D4CFB6005537FD /* GenericWJToken.m */; };
 		60857B4821D4CC90000967DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60857B4721D4CC90000967DD /* AppDelegate.m */; };
 		60857B4B21D4CC90000967DD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60857B4A21D4CC90000967DD /* ViewController.m */; };
@@ -23,12 +23,12 @@
 		3C499FE6DCD7B4A11900D42F /* libPods-WJSession-example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WJSession-example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		600E0E1221D4CE0C005537FD /* WJSession.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = WJSession.podspec; path = ../../WJSession.podspec; sourceTree = "<group>"; };
 		600E0E1321D4CE31005537FD /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../README.md; sourceTree = "<group>"; };
-		600E0E1421D4CFB6005537FD /* WJSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJSession.h; sourceTree = "<group>"; };
+		600E0E1421D4CFB6005537FD /* WJSessionService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJSessionService.h; sourceTree = "<group>"; };
 		600E0E1521D4CFB6005537FD /* IWJToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IWJToken.h; sourceTree = "<group>"; };
-		600E0E1621D4CFB6005537FD /* WJSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJSession.m; sourceTree = "<group>"; };
+		600E0E1621D4CFB6005537FD /* WJSessionService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJSessionService.m; sourceTree = "<group>"; };
 		600E0E1721D4CFB6005537FD /* GenericWJToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenericWJToken.m; sourceTree = "<group>"; };
-		600E0E1821D4CFB7005537FD /* IWJSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IWJSession.h; sourceTree = "<group>"; };
-		600E0E1921D4CFB7005537FD /* IWJSessionTokenSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IWJSessionTokenSerializer.h; sourceTree = "<group>"; };
+		600E0E1821D4CFB7005537FD /* IWJSessionService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IWJSessionService.h; sourceTree = "<group>"; };
+		600E0E1921D4CFB7005537FD /* IWJTokenSerializerService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IWJTokenSerializerService.h; sourceTree = "<group>"; };
 		600E0E1A21D4CFB7005537FD /* GenericWJToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenericWJToken.h; sourceTree = "<group>"; };
 		60857B4321D4CC90000967DD /* WJSession-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WJSession-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		60857B4621D4CC90000967DD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -40,6 +40,7 @@
 		60857B5221D4CC92000967DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		60857B5421D4CC92000967DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		60857B5521D4CC92000967DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		60871F0122B8A48D00073EDB /* WJSession.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJSession.h; sourceTree = "<group>"; };
 		F2B6F293BED748FCA1E2E3E9 /* Pods-WJSession-example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WJSession-example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WJSession-example/Pods-WJSession-example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -68,11 +69,12 @@
 			children = (
 				600E0E1A21D4CFB7005537FD /* GenericWJToken.h */,
 				600E0E1721D4CFB6005537FD /* GenericWJToken.m */,
-				600E0E1921D4CFB7005537FD /* IWJSessionTokenSerializer.h */,
-				600E0E1821D4CFB7005537FD /* IWJSession.h */,
+				600E0E1921D4CFB7005537FD /* IWJTokenSerializerService.h */,
+				600E0E1821D4CFB7005537FD /* IWJSessionService.h */,
 				600E0E1521D4CFB6005537FD /* IWJToken.h */,
-				600E0E1421D4CFB6005537FD /* WJSession.h */,
-				600E0E1621D4CFB6005537FD /* WJSession.m */,
+				600E0E1421D4CFB6005537FD /* WJSessionService.h */,
+				600E0E1621D4CFB6005537FD /* WJSessionService.m */,
+				60871F0122B8A48D00073EDB /* WJSession.h */,
 			);
 			name = Classes;
 			path = ../../Classes;
@@ -220,7 +222,7 @@
 				60857B5621D4CC92000967DD /* main.m in Sources */,
 				60857B4821D4CC90000967DD /* AppDelegate.m in Sources */,
 				600E0E1C21D4CFB7005537FD /* GenericWJToken.m in Sources */,
-				600E0E1B21D4CFB7005537FD /* WJSession.m in Sources */,
+				600E0E1B21D4CFB7005537FD /* WJSessionService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -13,15 +13,12 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "WJSingleton.h"
 #import "IWJCache.h"
 
 /**
  *  缓存配置
  */
 @interface WJCacheConfig : NSObject
-
-AS_SINGLETON(WJCacheConfig)
 
 @property (nonatomic, copy, readonly) NSString *keychainAccessGroup;
 
@@ -43,5 +40,7 @@ AS_SINGLETON(WJCacheConfig)
  *  @return 添加是否成功
  */
 - (BOOL)saveCacheObjectClass:(Class)cacheObjectClass;
+
++ (instancetype)sharedInstance;
 
 @end

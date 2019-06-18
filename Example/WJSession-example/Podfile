@@ -8,6 +8,6 @@ inhibit_all_warnings!
 target :'WJSession-example' do
 
 pod 'WJCacheAPI'
-pod 'WJConfig'
+pod 'WJAppContext'
 
 end

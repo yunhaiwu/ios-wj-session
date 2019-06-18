@@ -13,7 +13,7 @@
 //  Copyright (c) 2015年 WJ. All rights reserved.
 //
 
-#import "BaseWJObject.h"
+#import <Foundation/Foundation.h>
 #import "IWJToken.h"
 
 @interface GenericWJToken : NSObject<IWJToken>

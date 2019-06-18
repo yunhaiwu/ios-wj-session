@@ -18,7 +18,25 @@
 
 @implementation WJCacheConfig
 
-DEF_SINGLETON_INIT(WJCacheConfig)
+- (id) copy {
+    return self;
+}
+
+- (id) mutableCopy {
+    return self;
+}
+
++ (instancetype)sharedInstance {
+    static dispatch_once_t once;
+    static id __singleton__;
+    dispatch_once( &once, ^{
+        __singleton__ = [[self alloc] init];
+        if ([__singleton__ respondsToSelector:@selector(singleInit)]) {
+            [__singleton__ singleInit];
+        }
+    });
+    return __singleton__;
+}
 
 -(void) singleInit {
     _keychainDefaultService = [[NSBundle mainBundle] bundleIdentifier];

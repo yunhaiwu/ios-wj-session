@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
 s.name             = "WJSession"
-s.version          = "1.0"
+s.version          = "1.0.2"
 s.summary          = "用户用户登录/注销管理工具."
 
 
@@ -26,7 +26,6 @@ s.requires_arc = true
 s.source_files = 'Classes/*.{h,m}'
 s.public_header_files = 'Classes/*.h'
 
-s.dependency 'WJConfig'
 s.dependency 'WJCacheAPI'
 
 end
